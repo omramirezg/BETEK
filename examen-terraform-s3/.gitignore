@@ -1,0 +1,19 @@
+# Archivos de estado de Terraform (contienen info sensible)
+*.tfstate
+*.tfstate.*
+
+# Directorio de plugins y providers descargados
+.terraform/
+
+# Archivo de lock de providers
+.terraform.lock.hcl
+
+# Archivos de plan
+*.tfplan
+
+# Variables con datos sensibles (si tuviera passwords o keys)
+# terraform.tfvars  <-- en este caso lo dejo porque no tiene secrets
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
